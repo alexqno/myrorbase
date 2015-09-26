@@ -11,6 +11,9 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
+//= require beyond/bootstrap.min
+//= require beyond/slimscroll/jquery.slimscroll.min
+//= require beyond/skins.min
+//= require beyond/beyond.min
 //= require turbolinks
 //= require_tree .

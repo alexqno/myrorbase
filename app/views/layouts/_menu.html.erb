@@ -17,14 +17,12 @@
       </a>
     </li>
     <!--Usuários-->
-    <% if tem_permissao('permissaoUsuarios') %>
-        <li>
-          <%= link_to users_path do %>
-              <i class="menu-icon fa fa-user"></i>
-              <span class="menu-text"> Usuários </span>
-          <% end %>
-        </li>
-    <% end %>
+    <li>
+      <%= link_to root_path do %>
+          <i class="menu-icon fa fa-user"></i>
+          <span class="menu-text"> Usuários </span>
+      <% end %>
+    </li>
   </ul>
   <!-- /Sidebar Menu -->
 </div>

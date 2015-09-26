@@ -7,7 +7,7 @@
       <div class="navbar-header pull-left">
         <a href="#" class="navbar-brand">
           <small>
-            <img src="../../../vendor/assets/img/logo.png" alt="" />
+            <%= image_tag 'beyond/logo.png' %>
           </small>
         </a>
       </div>
@@ -32,11 +32,11 @@
                 <li class="username"><a>David Stevenson</a></li>
                 <li class="email"><a>David.Stevenson@live.com</a></li>
                 <li class="edit">
-                  <%= link_to 'Perfil', current_user.pessoa, class: 'pull-left' %>
-                  <%= link_to 'Editar', edit_pessoa_path(current_user.pessoa), class: 'pull-right' %>
+                  <%= link_to 'Perfil', class: 'pull-left' %>
+                  <%= link_to 'Editar', class: 'pull-right' %>
                 </li>
                 <li class="dropdown-footer">
-                  <%= link_to 'Sign out', sign_out_path, method: 'delete' %>
+                  <%= link_to 'Sign out' %>
                 </li>
               </ul>
               <!--/Login Area Dropdown-->
