@@ -11,16 +11,9 @@
   <ul class="nav sidebar-menu">
     <!--Dashboard-->
     <li class="active">
-      <a href="index.html">
-        <i class="menu-icon fa fa-home"></i>
+      <%= link_to '#' do %>
+        <%= fa_icon 'home' %>
         <span class="menu-text"> Dashboard </span>
-      </a>
-    </li>
-    <!--Usuários-->
-    <li>
-      <%= link_to root_path do %>
-          <i class="menu-icon fa fa-user"></i>
-          <span class="menu-text"> Usuários </span>
       <% end %>
     </li>
   </ul>

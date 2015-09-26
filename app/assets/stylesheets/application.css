@@ -13,9 +13,19 @@
  *= require beyond/bootstrap.min
  *= require font-awesome.css.erb
  *= require beyond/weather-icons.min
- *= require beyond/beyond.min
+ *= require beyond/beyond
  *= require beyond/demo.min
  *= require beyond/typicons.min
  *= require beyond/animate.min
  *= require_self
  */
+
+.register-container .registerbox {
+    position: relative;
+    width: 350px !important;
+    height: 300px !important;
+    padding: 0;
+    -webkit-box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
+}
