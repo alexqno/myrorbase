@@ -24,12 +24,14 @@
             <li>
               <a class="login-area dropdown-toggle" data-toggle="dropdown">
                 <section>
-                  <h2><span class="profile"><span>David Stevenson</span></span></h2>
+                  <h2><span class="profile"><span><%= current_user.email %></span></span></h2>
                 </section>
               </a>
               <!--Login Area Dropdown-->
               <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
-                <li class="username"><a>David Stevenson</a></li>
+                <li class="username">
+                  <a><%= current_user.email %></a>
+                </li>
                 <li class="edit">
                   <%= link_to 'Perfil', destroy_user_session_path, class: 'pull-left' %>
                   <%= link_to 'Editar', new_user_session_path, class: 'pull-right' %>
