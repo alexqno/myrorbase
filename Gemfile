@@ -46,6 +46,7 @@ gem 'breadcrumbs_on_rails'
 
 # autenticacao e autorizacao
 gem 'devise'
+gem 'pundit'
 
 #group :development, :test do
 #  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
