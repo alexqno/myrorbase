@@ -24,6 +24,7 @@ class ApplicationController < ActionController::Base
 
   def user_not_authorized
     flash[:error] = 'Você não tem permissão para fazer esta ação'
+    redirect_to '/dashboard/clear'
   end
 
 end
